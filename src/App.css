@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    height: 100%;
+}
+
+.main-titulo {
+    padding-top: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.main-cards {
+    display: flex;
+    max-width: 100%;
+    gap: 27px;
+    margin-bottom: 48px;
+    font-family: "Rubik", sans-serif;
+    border-top: 1px solid #6a6363;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 400px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.img-music {
+    max-width: 100%;
+}
+
+.img-music:hover {
+    transform: scale(1.1);
+}
+
+.sub-titulo {
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.descricao {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ccc3c3;
+}
