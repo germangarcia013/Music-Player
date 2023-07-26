@@ -1,4 +1,4 @@
-# Desafio - Cubos Player
+# Music Player
 
 Esse desáfio prático proposta pela Cubo Academy consiste em desenvolver um player de músicas baseado no loyaut do figma fornecido e com as funcionalidades dos botões de reproduzir a musica, play, pausar,  anterior e próximo.
 
